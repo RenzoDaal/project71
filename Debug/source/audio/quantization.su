@@ -1,0 +1,1 @@
+../source/audio/quantization.cpp:6:6:void quantize_mfcc(float32_t (*)[100], int8_t (*)[100])	32	static

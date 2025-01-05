@@ -1,0 +1,5 @@
+../source/audio/audio_load.cpp:17:10:status_t AUDIO_GetSpectralSample(uint8_t*, size_t)	16	static
+../source/audio/audio_load.cpp:42:6:void AUDIO_PreprocessSample(const int16_t*, size_t)	16	static
+../source/audio/audio_load.cpp:48:13:const char* AUDIO_GetSampleName()	4	static
+../source/audio/audio_load.cpp:58:1:void __static_initialization_and_destruction_0()	8	static
+../source/audio/audio_load.cpp:58:1:cpp)	8	static

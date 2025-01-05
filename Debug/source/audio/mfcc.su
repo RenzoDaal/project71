@@ -1,0 +1,8 @@
+../source/audio/mfcc.hpp:71:25:static float MFCC::MelScale(float)	16	static
+../source/audio/mfcc.cpp:33:1:MFCC::MFCC(int, int)	40	static
+../source/audio/mfcc.cpp:64:1:MFCC::~MFCC()	24	static
+../source/audio/mfcc.cpp:81:9:float* MFCC::create_dct_matrix(int32_t, int32_t)	56	static
+../source/audio/mfcc.cpp:99:10:float** MFCC::create_mel_fbank()	96	static
+../source/audio/mfcc.cpp:153:6:void MFCC::mfcc_compute(const int16_t*, float*)	96	static
+/Applications/MCUXpressoIDE_11.10.0_3148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_11.10.0.202311280810/tools/arm-none-eabi/include/c++/13.2.1/cmath:334:5:constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::log(_Tp) [with _Tp = int]	16	static
+/Applications/MCUXpressoIDE_11.10.0_3148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_11.10.0.202311280810/tools/arm-none-eabi/include/c++/13.2.1/cmath:1070:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = int; _Up = double]	24	static
