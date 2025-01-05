@@ -1,6 +1,0 @@
-../source/audio/kws_mfcc.cpp:26:1:KWS_MFCC::KWS_MFCC(int)	16	static
-../source/audio/kws_mfcc.cpp:32:1:KWS_MFCC::KWS_MFCC(const int16_t*)	16	static
-../source/audio/kws_mfcc.cpp:39:1:KWS_MFCC::~KWS_MFCC()	24	static
-../source/audio/kws_mfcc.cpp:45:6:void KWS_MFCC::init_mfcc()	24	static
-../source/audio/kws_mfcc.cpp:62:6:void KWS_MFCC::store_features(uint8_t*)	24	static
-../source/audio/kws_mfcc.cpp:70:6:void KWS_MFCC::extract_features()	24	static

@@ -1,4 +1,0 @@
-../source/audio/mfcc_controller.cpp:12:13:void compute_log_magnitude(float32_t*, float32_t*)	40	static
-../source/audio/mfcc_controller.cpp:21:13:void compute_dct(float32_t*, float32_t*)	40	static
-../source/audio/mfcc_controller.cpp:31:14:float normalize(float, float, float)	24	static
-../source/audio/mfcc_controller.cpp:35:6:void compute_mfcc(const int16_t*, size_t)	40	static
