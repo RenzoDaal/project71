@@ -4,6 +4,7 @@
 #include "mfcc_controller.h"
 #include "quantization.h"
 #include "gunshot.h"
+//#include "animal-audio-lion-2.h"
 #include <cstdio>
 
 int main(void)
@@ -53,13 +54,13 @@ int main(void)
 	// Dequantizing the model output
 	PRINTF("Dequantizing the model output...\r\n");
 	int output_score = (outputParams.scale * (outputData[0]-outputParams.zero_point))*100;
-	if (output_score > 50)
+	if (output_score > 85)
 	{
-	  PRINTF("Gunshot detected with %d%% confidence\r\n", output_score);
+	  PRINTF("Gunshot detected!\r\n");
 	}
 	else
 	{
-	  PRINTF("No gunshot detected with %d%% confidence\r\n", 100-output_score);
+	  PRINTF("No gunshot detected!\r\n");
 	}
 
 	for (;;) {}
