@@ -1,0 +1,21 @@
+/Applications/MCUXpressoIDE_11.10.0_3148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_11.10.0.202311280810/tools/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/buffer.h:34:13:void flatbuffers::EndianCheck()	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/table.h:29:18:const uint8_t* flatbuffers::Table::GetVTable() const	24	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	24	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/tensorflow/lite/schema/schema_generated.h:16225:12:uint32_t tflite::Model::version() const	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/tensorflow/lite/schema/schema_generated.h:24405:29:const tflite::Model* tflite::GetModel(const void*)	16	static
+../source/model/model.cpp:38:10:status_t MODEL_Init()	32	static
+../source/model/model.cpp:72:10:status_t MODEL_RunInference()	8	static
+../source/model/model.cpp:83:9:int8_t* GetTensorData(TfLiteTensor*, tensor_dims_t*, tensor_type_t*, tensor_params_t*)	32	static
+../source/model/model.cpp:111:9:int8_t* MODEL_GetInputTensorData(tensor_dims_t*, tensor_type_t*, tensor_params_t*)	32	static
+../source/model/model.cpp:118:9:int8_t* MODEL_GetOutputTensorData(tensor_dims_t*, tensor_type_t*, tensor_params_t*)	32	static
+../source/model/model.cpp:125:13:const char* MODEL_GetModelName()	4	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/base.h:416:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/base.h:427:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/base.h:427:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/base.h:427:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long unsigned int]	32	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/buffer.h:132:31:const T* flatbuffers::GetRoot(const void*) [with T = tflite::Model]	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/base.h:416:24:T flatbuffers::EndianScalar(T) [with T = long int]	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/base.h:416:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	16	static
+/Users/renzodaal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/GUNSHOT_MODEL_MFCC_tflm_kws/eiq/tensorflow-lite/third_party/flatbuffers/include/flatbuffers/buffer.h:120:25:T* flatbuffers::GetMutableRoot(void*) [with T = tflite::Model]	16	static
