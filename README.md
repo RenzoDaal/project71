@@ -26,7 +26,7 @@ Finally we have made a Python file that does the MFCC and quantization to a `.wa
 The microcontroller folder contains the code to run the model on a the **FRDM-MCXN947** microcontroller. To do this you will need to follow these steps:
 1. Download the MCUXpresso IDE which can be found here: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE.
 2. Clone the folder **Microcontroller** into the workspace directory of the MCUXpresso IDE.
-3. You may have to restart the IDE to see the project in the `Project Explorer`.
+3. You will have to refresh the `Project Explorer` to be able to see the new project in there. If it doesn't appear, restarting the IDE should do the trick.
 4. Build and debug the code.
 
 The project has a `source` folder which contains the relevant code. The other folder worth mentioning is the `eiq` folder which contains the `TensorFlow Lite Micro` library. The `source` folder contains the main file and 2 more folders called `audio` and `model`. The `audio` folder contains all the MFCC processing logic and the audio files in `.h` format themselves, whilst the `model` folder contains all the logic related to running the model on the microcontroller and the model in `.h` format itself. In `main.cpp` we include the audio file that will be analyzed by the model. Note that only one audio file can be included at once, and the name of the array in the `.h` audio file must be `audio_sample_data`.  
